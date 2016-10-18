@@ -1,18 +1,19 @@
 
 $(document).ready(function(){
+   // process input on submit
     $("form").submit(function(e){
        e.preventDefault();
        var strToBeReversed = $('#string').val();
        var reversedString = reverseStringWord(strToBeReversed);
        $("#reversedString").text("" + reversedString);
     });
-
+     // process input on keypress
     $("#string").keypress(function(){
        var strToBeReversed = $('#string').val();
        var reversedString = reverseStringWord(strToBeReversed);
        $("#reversedString").text("" + reversedString);
     });
-
+       // process input on keyup
      $("#string").keyup(function(){
        var strToBeReversed = $('#string').val();
        var reversedString = reverseStringWord(strToBeReversed);
