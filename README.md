@@ -1,1 +1,10 @@
-# devtest
+# DevCenter Test Challenge
+
+Given an input string, reverse the string word by word.
+
+For example,
+Given s = "the sky is blue",
+return "blue is sky the"
+
+Demo
+[url-demo](https://devcentertest.herokuapp.com/)
