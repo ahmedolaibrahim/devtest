@@ -7,4 +7,4 @@ Given s = "the sky is blue",
 return "blue is sky the"
 
 # Demo
-[url-demo](https://devcentertest.herokuapp.com/)
+[demo-url](https://devcentertest.herokuapp.com/)
